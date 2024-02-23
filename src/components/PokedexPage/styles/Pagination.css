@@ -1,0 +1,25 @@
+.pagination{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.next,
+.previous{
+    background-color: #FD1936;
+    border-color: #FD1936;
+    color: aliceblue;
+    font-weight: bold;
+}
+.pagination-link.is-current {
+    background-color: #FD1936; /* Azul */
+    color: white;
+    border-color: #FD1936;
+}
+.next:hover {
+    transform: scale(1.1);
+}
+.previous:hover {
+    transform: scale(1.1);
+}
+.pagination-link:hover {
+    transform: scale(1.1);
+}

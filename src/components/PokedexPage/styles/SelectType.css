@@ -1,0 +1,8 @@
+.select__type {
+    width: 248px;
+    padding: 0px 10px;
+    height: 35px;
+}
+.option__type:hover{
+    background-color: red;
+}

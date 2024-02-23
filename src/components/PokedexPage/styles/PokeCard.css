@@ -1,0 +1,232 @@
+.poke__card{
+    border: 5px solid;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    gap: 5px;
+    position: relative;
+}
+.poke__card:hover{
+    transform: scale(1.05);
+}
+.poke__card div{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-radius: 14px 14px 0 0;
+
+}
+.poke__card figure{
+    position: relative;
+    width: 150px;
+    z-index: 10;
+}
+.poke__types{
+    display: flex;
+    gap: 5px;
+}
+.poke__card hr{
+    width: 85%;
+}
+.poke__stats{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+    width: 85%;
+    gap: 10px;
+}
+.poke__stats li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slote2::before{
+    content: '/ ';
+}
+/* ---colores de fondo dinamico para las cars--- */
+.normal{
+    background-image: linear-gradient(#79545C, #AF6676);
+}
+.fighting{
+    background-image: linear-gradient(#9B422B, #CB5335);
+}
+.flying{
+    background-image: linear-gradient(#502364, #E0B0FF);
+}
+.poison{
+    background-image: linear-gradient(#673A94, #B478ED);
+}
+.ground{
+    background-image: linear-gradient(#724A0F, #B57E2B);
+}
+.rock{
+    background-image: linear-gradient(#818182, #AEAEB2);
+}
+.bug{
+    background-image: linear-gradient(#42B840, #68D166);
+}
+.ghost{
+    background-image: linear-gradient(#363976, #5D62BF);
+}
+.steel{
+    background-image: linear-gradient(#657A73, #919B97);
+}
+.fire{
+    background-image: linear-gradient(#EB6042, #E6931E);
+}
+.water{
+    background-image: linear-gradient(#145AB5, #3088F9);
+}
+.grass{
+    background-image: linear-gradient(#87CAC5, #CAE099);
+}
+.electric{
+    background-image: linear-gradient(#171D97, #5258BE);
+}
+.psychic{
+    background-image: linear-gradient(#DF3232, #E36464);
+}
+.ice{
+    background-image: linear-gradient(#6CC1E5, #93DCFA);
+}
+.dragon{
+    background-image: linear-gradient(#4C939D, #82B3BA);
+}
+.dark{
+    background-image: linear-gradient(black, #313534);
+}
+.fairy{
+    background-image: linear-gradient(#A52550, #C96083);
+}
+/* ---colores de border dinamico--- */
+.normal__border{
+    border: 10px solid #845962;
+}
+.fighting__border{
+    border: 10px solid #AE482E;
+}
+.flying__border{
+    border: 10px solid #502364;
+}
+.poison__border{
+    border: 10px solid #8556B2;
+}
+.ground__border{
+    border: 10px solid #764C0C;
+}
+.rock__border{
+    border: 10px solid #7E7E7E;
+}
+.bug__border{
+    border: 10px solid #6EC263;
+}
+.ghost__border{
+    border: 10px solid #3D4189;
+}
+.steel__border{
+    border: 10px solid #728981;
+}
+.fire__border{
+    border: 10px solid #E67828;
+}
+.water__border{
+    border: 10px solid #5FA4FE;
+}
+.grass__border{
+    border: 10px solid #B4DBB8;
+}
+.electric__border{
+    border: 10px solid #4046BF;
+}
+.psychic__border{
+    border: 10px solid #E44444;
+}
+.ice__border{
+    border: 10px solid #8FCFEA;
+}
+.dragon__border{
+    border: 10px solid #66ACB5;
+}
+.dark__border{
+    border: 10px solid #202221;
+}
+.fairy__border{
+    border: 10px solid #A62F57;
+}
+/* ---colores de letra dinamico--- */
+.normal__color{
+    color: #735259;
+    font-weight: bold;
+}
+.fighting__color{
+    color: #96402A;
+    font-weight: bold;
+}
+.flying__color{
+    color: #4C2882;
+    font-weight: bold;
+}
+.poison__color{
+    color: #5B3184;
+    font-weight: bold;
+}
+.ground__color{
+    color: #654008;
+    font-weight: bold;
+}
+.rock__color{
+    color: #7E7E7E;
+    font-weight: bold;
+}
+.bug__color{
+    color: #4AB648;
+    font-weight: bold;
+}
+.ghost__color{
+    color: #323569;
+    font-weight: bold;
+}
+.steel__color{
+    color: #5E736C;
+    font-weight: bold;
+}
+.fire__color{
+    color: #E96642;
+    font-weight: bold;
+}
+.water__color{
+    color: #1479FB;
+    font-weight: bold;
+}
+.grass__color{
+    color: #406460;
+    font-weight: bold;
+}
+.electric__color{
+    color: #0C1395;
+    font-weight: bold;
+}
+.psychic__color{
+    color: #E52D2D;
+    font-weight: bold;
+}
+.ice__color{
+    color: #6FBEDF;
+    font-weight: bold;
+}
+.dragon__color{
+    color: #478A93;
+    font-weight: bold;
+}
+.dark__color{
+    color: black;
+    font-weight: bold;
+}
+.fairy__color{
+    color: #971B45;
+    font-weight: bold;
+}

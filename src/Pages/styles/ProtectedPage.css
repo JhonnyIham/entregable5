@@ -1,0 +1,41 @@
+.prot{
+    width: 100%;
+}
+header {
+    height: 100px;
+    background-color: #FD1936;
+    text-align: center;
+    width: 100%;
+    border-bottom: 30px solid black;
+}
+.circle1__header {
+    position: absolute;
+    top: 91px;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    border: 9px solid black;
+}
+.circle2__header {
+    position: absolute;
+    top: 91px;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #313131ef;
+    border: 9px solid black;
+}
+.title__header{
+    width: 273px;
+    position: absolute;
+    top: 31px;
+    left: 4%;
+}
+
+
+
