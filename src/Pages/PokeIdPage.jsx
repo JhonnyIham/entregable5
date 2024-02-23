@@ -59,7 +59,7 @@ const PokeIdPage = () => {
           <div className="stats__title">
             <h2>Stats</h2>
             <figure className="stats__figure">
-              <img src='../public/assets/images/pokeball.webp'   alt="pokeball" />
+              <img src='../assets/images/pokeball.webp'   alt="pokeball" />
             </figure>
           </div>
           <hr className="hr__stats"/>
@@ -81,7 +81,7 @@ const PokeIdPage = () => {
         <div className="move__title">
           <h2>Movements</h2>
           <figure className="stats__figure">
-              <img src='../public/assets/images/pokeball.webp'   alt="pokeball" />
+              <img src='../assets/images/pokeball.webp'   alt="pokeball" />
           </figure>
         </div>
         <hr className="hr__move"/>
