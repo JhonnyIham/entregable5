@@ -20,7 +20,7 @@ const HomePage = () => {
   return (
     <div className="Home">
       <figure>
-        <img src='../public/assets/images/titlePoke.png' alt="titlePoke" />
+        <img src='../assets/images/titlePoke.png' alt="titlePoke" />
       </figure>
       <div className="greeting">
         <h1>¡Hola entrenador!</h1>

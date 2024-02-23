@@ -13,7 +13,7 @@ const ProtectedRoutes = () => {
                     <div className="circle1__header"></div>
                     <div className="circle2__header"></div>
                     <figure className="title__header">
-                        <img src='../public/assets/images/titlePoke.png' alt="titlePoke" />
+                        <img src='../assets/images/titlePoke.png' alt="titlePoke" />
                     </figure>
                 </header>
                 <Outlet/>
