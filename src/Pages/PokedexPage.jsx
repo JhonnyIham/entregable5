@@ -47,8 +47,8 @@ const PokedexPage = () => {
         }
     }
 
-    const totalPokemons = pokemons?.results.length
- 
+    const totalPokemons = cbFilter()?.length
+    
   return (
     <div className="pokedex">
         <section className="poke__header">
